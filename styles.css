@@ -59,7 +59,7 @@ body {
   line-height: 26px;
   font-weight: 400;
   overflow-x: hidden;
-  background: #96d1b3;
+  background: #f49d06;
 }
 
 .wrapper {
@@ -88,7 +88,7 @@ body {
   font-weight: bold;
   border-radius: 10px;
   padding: 5px;
-  background: #96d1b3;
+  background: #f49d06;
 }
 
 .wrapper h3 {
@@ -140,7 +140,7 @@ a {
 
 .btn--primary:hover {
   color: #ffffff;
-  background: #96d1b3;
+  background: #f49d06;
   box-shadow: 0 4px 15px 0 rgba(245,245,245);
   border: #000 1px solid;
 }
@@ -151,7 +151,7 @@ a {
 
 .btn--accent:hover {
   color: #ffffff;
-  background: #96d1b3;
+  background: #f49d06;
   box-shadow: 0 4px 15px 0 rgba(245,245,245);
   border: #000 1px solid;
 }
@@ -201,7 +201,7 @@ a {
     font-weight: bold;
     border-radius: 25px;
     padding: 5px;
-    background: #96d1b3;
+    background: #f49d06;
   }
   .btn {
     padding: 10px 10px;
