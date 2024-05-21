@@ -76,7 +76,7 @@
                 id="OLYMPIAD_CATEGORY"
                 name="OLYMPIAD_CATEGORY"
                 class="form-control"
-                placeholder="Pilih Kategori Olimpiade"
+                placeholder="Choose Olimpiade Category"
                 value=""
                 required
               >
@@ -88,6 +88,40 @@
               </select>
               </select>
             </div>
+
+            <div class="input-box">
+              
+              <label for="COMPETITION_CATEGORY" class="form-label"
+                >Competition Category</label
+              >
+              <select
+                type="text"
+                id="COMPETITION_CATEGORY"
+                name="COMPETITION_CATEGORY"
+                class="form-control"
+                placeholder="Choose Competition Category"
+                value=""
+                required
+              >
+                <option value="" >--Choose Competition Category--</option>
+                <option value="Offline Competition">Offline Competition</option>
+                <option value="Offline Competition + Full package">Offline Competition + Full package</option>
+                <option value="Offline Competition + Excursion">Offline Competition + Excursion</option>
+              </select>
+              </select>
+            </div>
+
+            <div class="input-box">
+              <label for="COUNTRY" class="form-label">Country</label>
+              <input
+                type="text"
+                id="COUNTRY"
+                name="COUNTRY"
+                class="form-control"
+                placeholder="Your Country "
+                required
+              />
+            </div>
             
 
             <div class="input-box">
@@ -97,7 +131,6 @@
               <p>Noted: Input the name of the school with the format in the order of the names of the chairman and team members from each school, with the format as follows:</p>
               <h6>SMA CERIA</h6>
               <h6>HAPPY HIGH SCHOOL</h6>
-              <h6>SMA TADIKA MESRA</h6>
               <textarea
                 type="text"
                 id="SCHOOL_NAME"
@@ -115,7 +148,6 @@
               <p>Noted: Input the name of the team leader and team members with the team leader's name at the beginning, with the following format:</p>
               <h6>Kamal Putra</h6>
               <h6>Ranu Ramadhan</h6>
-              <h6>Irsyad Zaidan</h6>
               <textarea
                 type="text"
                 id="FULL_NAME"
@@ -155,17 +187,7 @@
               />
             </div> -->
 
-            <div class="input-box">
-              <label for="COUNTRY" class="form-label">Country</label>
-              <input
-                type="text"
-                id="COUNTRY"
-                name="COUNTRY"
-                class="form-control"
-                placeholder="Your Country "
-                required
-              />
-            </div>
+            
 
             
 
@@ -281,6 +303,44 @@
             </div>
 
             <div class="input-box">
+              <label for="INFORMATION_RESOURCES" class="form-label"
+                >WSO 2024 Competition Information Source</label
+              >
+              <!-- <p>
+                Tuliskan nama yang memberikan sumber atau dapat menulis
+                sumber lain (Ex: Instagram, Pendaftaran Gratis acara
+                acara sebelumnya, Kunjungan Sekolah Golden Ticket, dll)
+              </p> -->
+              <select
+                type="text"
+                id="INFORMATION_RESOURCES"
+                name="INFORMATION_RESOURCES"
+                class="form-control"
+                placeholder="--Choose Information Resources-- "
+                required
+              >
+                <option value="">
+                  --Choose Information Resource--
+                </option>
+                <option value="IYSA Instagram">IYSA Instagram</option>
+                <option value="WSO Instagram">
+                  WSO Instagram
+                </option>
+                <option value="Supervisor/School">
+                  Supervisor/School
+                </option>
+                <option value="IYSA FaceBook">IYSA FaceBook</option>
+                <option value="IYSA Linkedin">IYSA Linkedin</option>
+                <option value="IYSA Website">IYSA Website</option>
+                <option value="WSO Website">WSO Website</option>
+                <option value="IYSA Email">IYSA Email</option>
+                <option value="WSO Email">WSO Email</option>
+                <option value="Previous Event">Previous Event</option>
+                <option value="Etc">Etc</option>
+              </select>
+            </div>
+
+            <div class="input-box">
               <label for="LEADER_EMAIL" class="form-label"
                 >Leader Email Address</label
               >
@@ -355,43 +415,6 @@
               <div class="mt-5" id="form_alerts"></div>
             </div>
 
-            <div class="input-box">
-              <label for="INFORMATION_RESOURCES" class="form-label"
-                >WSO 2024 Competition Information Source</label
-              >
-              <!-- <p>
-                Tuliskan nama yang memberikan sumber atau dapat menulis
-                sumber lain (Ex: Instagram, Pendaftaran Gratis acara
-                acara sebelumnya, Kunjungan Sekolah Golden Ticket, dll)
-              </p> -->
-              <select
-                type="text"
-                id="INFORMATION_RESOURCES"
-                name="INFORMATION_RESOURCES"
-                class="form-control"
-                placeholder="--Choose Information Resources-- "
-                required
-              >
-                <option value="">
-                  --Choose Information Resource--
-                </option>
-                <option value="IYSA Instagram">IYSA Instagram</option>
-                <option value="WSO Instagram">
-                  WSO Instagram
-                </option>
-                <option value="Supervisor/School">
-                  Supervisor/School
-                </option>
-                <option value="IYSA FaceBook">IYSA FaceBook</option>
-                <option value="IYSA Linkedin">IYSA Linkedin</option>
-                <option value="IYSA Website">IYSA Website</option>
-                <option value="WSO Website">WSO Website</option>
-                <option value="IYSA Email">IYSA Email</option>
-                <option value="WSO Email">WSO Email</option>
-                <option value="Previous Event">Previous Event</option>
-                <option value="Etc">Etc</option>
-              </select>
-            </div>
             
           </div>
           <div class="button">
